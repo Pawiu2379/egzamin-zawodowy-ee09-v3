@@ -1,0 +1,18 @@
+*{
+    font-family: Helvetica, sans-serif;
+}
+
+#left-up{
+    height: 400px;
+    width: 70%;
+    background-color: snow;
+    text-align: center;
+
+}
+
+#left-down{
+    height: 400px;
+    width: 70%;
+    background-color: snow;
+    font-size: 150%;
+}
