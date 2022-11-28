@@ -1,46 +1,54 @@
 <!DOCTYPE html>
-<html lang="pl">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Usługi fryzjerskie</title>
+    <title>Salon Fryzjerski</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <section id="container" class="half">
-        <div id="left-up" class="left">
-            <h2><a href="index.html">Salon Fryzjerski</a></h2>
+    <main> 
+        <div id="left">
+            <a href="index.html">
+                <h2>SALON FRYZJERSKI</h2>
+            </a>
             <img src="obraz2.jpg" alt="Czesanie">
         </div>
-        <div id="left-down" class="left">
-            <h5>Kontakt: <a href="tel:111 222 333">111 222 333</a></h5>
-            <p>Witaj!, Miło nam że odwiedziłeś nasz salon fryzjerski.</p>
-            <p>Zapoznaj się z ofertą i sprawdź promocje!</p>
+       
+        <div id="right">
+            <h2>MENU</h2>
         </div>
-    </section>
-    <section id="right" class="half">
-        <div id="menu" class="right">
-            <h2>Menu</h2>
+        <div id="right2">
+            <ol>
+                <li>
+                    <a href="fryzura.html">Strzyżenie</a>
+                    <ul>
+                        <li>Krótkie</li>
+                        <li>Średnie</li>
+                        <li>Półdługie</li>
+                        <li>Długie</li>
+                    </ul>
+                </li>
+                <li>
+                    Czesanie
+                </li>
+                <li>
+                    Koloryzacja
+                </li>
+            </ol>
         </div>
-        <div id="list"  class="right">
-            <li>
-                <ol><a href="fryzura.html" >Strzyżenie:</a>
-                    <li>
-                        <ul>Krótkie</ul>
-                        <ul>Średnie</ul>
-                        <ul>Półdługie</ul>
-                        <ul>Długie</ul>
-                    </li>
-                </ol>
-                <ol>Czesanie</ol>
-                <ol>Koloryzacja</ol>
-            </li>
+            <div id="left2">
+        <h5>Kontakt: 111 222 333</h5>
+        <p>Witaj! Miło nam, że odwiedziłeś nasz salon. <br>Zapoznaj się z ofertą i sprawdź promocje!</p>
         </div>
-        <div id="picture" class="right">
-            <img src="./obraz1.jpg" alt="Fryzjer">
+    </main>
+        <div id="right3">
+            <img src="obraz1.jpg" alt="Fryzjer">
         </div>
-    </section>
-    <footer><p>Autor: Paweł Koc</p></footer>
+    <footer>
+        <p>Paweł Koc 4J</p>
+    </footer>
+    <script src="./script.js"></script>
 </body>
 </html>
